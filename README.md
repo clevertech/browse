@@ -6,7 +6,7 @@ Command line utility to open links found in package.json
 
 Put in your `package.json` file a bunch of links with any tree strcuture you prefer. The leaves must be URLs.
 
-```
+```json
 "browse": {
   "website": "https://example.com/",
   "sentry": "https://sentry.example.com/example/project-name/",
