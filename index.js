@@ -32,6 +32,10 @@ const run = () => {
   }
 
   const links = findLinks([], packageJSON.browse, {})
+  if (Object.keys(links).length === 0) {
+    console.log('No URLs found. Add your URLs inside `browse` in your `package.json` file')
+    process.exit(0)
+  }
 
   const open = input => {
     const url = links[input]
