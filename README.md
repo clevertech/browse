@@ -59,6 +59,6 @@ npm/yarn run browse [path]
 
 ## Autocomplete
 
-`open` works in two different ways. If you don't provide any command line argument it will print all available links and an autocomplete interface.
+`browse` works in two different ways. If you don't provide any command line argument it will print all available links and an autocomplete interface.
 
 If you provide the path, it will open the link right away.
