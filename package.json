@@ -1,6 +1,6 @@
 {
   "name": "@clevertech.biz/browse",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Command line utility to open links found in package.json",
   "main": "index.js",
   "scripts": {
