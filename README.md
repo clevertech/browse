@@ -57,6 +57,18 @@ Then run:
 npm/yarn run browse [path]
 ```
 
+### Installing globally
+
+```
+npm/yarn install @clevertech.biz/browse -g
+```
+
+Then just run
+
+```
+browse [path]
+```
+
 ## Autocomplete
 
 `browse` works in two different ways. If you don't provide any command line argument it will print all available links and an autocomplete interface.
