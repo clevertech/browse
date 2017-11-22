@@ -1,0 +1,19 @@
+{
+  "name": "@clevertech.biz/browse",
+  "version": "0.1.0",
+  "description": "Command line utility to open links found in package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "browse": "./index.js"
+  },
+  "keywords": [],
+  "author": "Alberto Gimeno <alberto@clevertech.biz>",
+  "license": "MIT",
+  "dependencies": {
+    "opn": "^5.1.0",
+    "terminal-kit": "^1.14.3"
+  }
+}
