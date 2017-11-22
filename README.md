@@ -45,7 +45,7 @@ yarn install @clevertech.biz/browse -D
 
 Add a local script in your `package.json`:
 
-```
+```json
 "scripts": {
   "browse": "browse"
 }
